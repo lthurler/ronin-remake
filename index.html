@@ -2,8 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="dns-prefetch" href="https://fonts.googleapis.com">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -34,11 +33,122 @@
     <meta name="author" content="Ronin Sistemas">
     <link rel="shortcut icon" href="./img/logo cru.png" type="image/x-icon">
     <link rel="canonical" href="https://roninsistemas.com.br/">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/animation-css.css" type="text/css">
+    <link rel="stylesheet" href="./css/animate.css" type="text/css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"> -->
+
+    
 </head>
 <body>
-    
+    <header>
+        <div id="top-gradient"></div>
+        
+        <div id="menu-container">
+            <img id="logo" src="./img/logo novo transp.webp" alt="logo da ronin">
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="#" name="inicio">Inicio</a></li>
+                    <li><a href="#web" name="web">Websites</a></li>
+                    <li><a href="#camera" name="cameras">Cftv</a></li>
+                    <li><a href="#redes" name="redes">Redes</a></li>
+                    <li><a href="#micro" name="suporte">Suporte</a></li>
+                    <li><a href="#contato" name="contato">Contato</a></li>
+                </ul>                
+            </nav>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">Inicio</a>
+                    </li>
+            
+                    <li class="nav__item">
+                        <a href="#web" about class="nav__link">Websites</a>
+                    </li>
+            
+                    <li class="nav__item">
+                        <a href="#camera" class="nav__link">Cftv</a>
+                    </li>
+            
+                    <li class="nav__item">
+                        <a href="#redes" class="nav__link">Redes</a>
+                    </li>
+            
+                    <li class="nav__item">
+                        <a href="#micro" class="nav__link">Suporte</a>
+                    </li>
+                </ul>
+            
+                <div class="nav__close" id="nav-close">
+                    <img src="./img/close-line.svg" alt="botão de fechar menu">
+            
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <img src="./img/apps-2-fill.svg" alt="botão de abrir menu">
+            </div>
+            
+            <a id="zap"
+                href="https://api.whatsapp.com/send?phone=5521981860460&text=Ronin, te vi no google,preciso da ajuda de vocês"
+                target="_blank">
+                <button id="button">
+                    <div><img src="./img/whatsapp-line.svg" alt="zap" /><span>Orçamento online</span></div>
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <section id="home" class="bg-gradient-layout1">
+        <article id="title-container">
+
+            <div id="main-info">
+                <div id="main-text">                    
+
+                    <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-1800">
+                        <h2 class="item-main-title">Ronin Sistemas</h2>
+                    </div>
+
+                    <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-2100">
+                        <h1>Serviços de informática</h1>
+                    </div>
+
+                    <div id="card-service-container">
+                        <div class="card-service">
+                            <img src="./img/check.png" alt="check">
+                            <h3>Desenvolvimento de websites</h3>
+                        </div>                        
+
+                        <div class="card-service">
+                            <img src="./img/check.png" alt="check">
+                            <h3>Manutenção de computadores</h3>
+                        </div>
+
+                        <div class="card-service">
+                            <img src="./img/check.png" alt="check">
+                            <h3>Instalação de redes</h3>
+                        </div>
+
+                        <div class="card-service">
+                            <img src="./img/check.png" alt="check">
+                            <h3>Câmeras de segurança</h3>
+                        </div>
+                    </div>
+                     
+                </div>
+                
+                <div id="main-img">                    
+                    <img src="./img/illustration1.png" alt="Illustration">
+                </div>                      
+            </div>
+
+        </article>
+    </section>
+
 </body>
     <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
 </html>
